@@ -621,5 +621,4 @@ Chrome Extension API — integración con el navegador.
 
 Si este proyecto te resulta útil, considera darle una ⭐ al repositorio en GitHub.
 
-Oracle Quiz Solver — IA híbrida + automatización + aprendizaje local.#   O r a c l e - Q u i z - R e s o l v e r  
- 
+Oracle Quiz Solver — IA híbrida + automatización + aprendizaje local.

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Oracle Quiz Solver",
+  "version": "1.0.0",
+  "description": "Resuelve quizzes de Oracle Academy automaticamente",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": [
+    "https://academy.oracle.com/*",
+    "http://localhost:8000/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://academy.oracle.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

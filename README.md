@@ -1,10 +1,11 @@
-🧠 Oracle Quiz Solver
+# 🧠 Oracle Quiz Solver
 
 Herramienta educativa que combina una extensión de Chrome con un backend FastAPI y una estrategia de IA híbrida basada en Google Gemini + Ollama para analizar y resolver preguntas de quizzes de Oracle Academy.
 
-⚠️ Disclaimer: Esta herramienta está destinada únicamente a uso educativo y personal. El usuario es responsable de cumplir los términos de servicio de Oracle Academy y las políticas académicas de su institución.
+### ⚠️ Disclaimer: 
+Esta herramienta está destinada únicamente a uso educativo y personal. El usuario es responsable de cumplir los términos de servicio de Oracle Academy y las políticas académicas de su institución.
 
-📁 Estructura del proyecto
+## 📁 Estructura del proyecto
 
 oracle-quiz-solver/
 
@@ -41,18 +42,19 @@ oracle-quiz-solver/
 
 └── README.md
 
-✨ Características
-🤖 Integración con Google Gemini
-🦙 Soporte para modelos locales mediante Ollama
-🔄 Sistema de fallback automático entre Gemini y Ollama
-🧠 Base de conocimiento para recordar respuestas incorrectas
-🌐 Extensión compatible con navegadores basados en Chromium
-⚡ Resolución de preguntas individuales
-🚀 Modo de auto-resolución de quizzes
-💾 Persistencia local de información
-🔌 API REST desarrollada con FastAPI
-🛠️ Tecnologías
-Componente	Tecnología
+## ✨ Características
+- 🤖 Integración con Google Gemini
+- 🦙 Soporte para modelos locales mediante Ollama
+- 🔄 Sistema de fallback automático entre Gemini y Ollama
+- 🧠 Base de conocimiento para recordar respuestas incorrectas
+- 🌐 Extensión compatible con navegadores basados en Chromium
+- ⚡ Resolución de preguntas individuales
+- 🚀 Modo de auto-resolución de quizzes
+- 💾 Persistencia local de información
+- 🔌 API REST desarrollada con FastAPI
+- 🛠️ Tecnologías
+
+## Componente	Tecnología
 Backend	Python 3.12+
 API	FastAPI
 Servidor	Uvicorn
@@ -64,7 +66,7 @@ Frontend	JavaScript Vanilla
 Persistencia	JSON / sessionStorage
 📋 Requisitos
 
-Antes de comenzar, asegúrate de tener instalado:
+### Antes de comenzar, asegúrate de tener instalado:
 
 Python 3.12 o superior
 Ollama
@@ -73,12 +75,13 @@ Una cuenta de Google para obtener una API key de Gemini
 Windows, Linux o macOS
 Ollama
 
-Descarga Ollama desde:
+### Descarga Ollama desde:
 
 https://ollama.com/download
 
-🚀 Instalación
+### 🚀 Instalación
 1. Clonar el repositorio
+   
 git clone https://github.com/tu-usuario/oracle-quiz-solver.git
 cd oracle-quiz-solver
 
@@ -86,20 +89,21 @@ cd oracle-quiz-solver
 
 Puedes utilizar cualquiera de los modelos configurados para el proyecto.
 
-Mistral 7B — recomendado
-ollama pull mistral:7b
+**Mistral 7B — recomendado**
+**ollama pull mistral:7b**
 
-Llama 3.1 8B — alternativa
-ollama pull llama3.1:8b
+**Llama 3.1 8B — alternativa**
+**ollama pull llama3.1:8b**
 
 
 Comprueba que el modelo esté instalado:
 
 ollama list
 
-⚙️ Configuración del backend
+## ⚙️ Configuración del backend
 3. Crear el entorno virtual
 
+Dentro de la consola
 Desde la carpeta del backend:
 
 cd backend

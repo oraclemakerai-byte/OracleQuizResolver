@@ -11,48 +11,33 @@ oracle-quiz-solver/
 
 ├── backend/
 
-
 │   ├── main.py
-
 
 │   ├── ai_service.py
 
-
 │   ├── config.py
-
 
 │   ├── models.py
 
-
 │   ├── requirements.txt
-
 
 │   ├── .env.example
 
-
 │   └── .gitignore
 
-
 │
-
 
 ├── extension/
 
-
 │   ├── manifest.json
-
 
 │   ├── content.js
 
-
 │   └── .gitignore
-
 
 │
 
-
 ├── .gitignore
-
 
 └── README.md
 

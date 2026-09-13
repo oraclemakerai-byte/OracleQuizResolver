@@ -5,22 +5,55 @@ Herramienta educativa que combina una extensión de Chrome con un backend FastAP
 ⚠️ Disclaimer: Esta herramienta está destinada únicamente a uso educativo y personal. El usuario es responsable de cumplir los términos de servicio de Oracle Academy y las políticas académicas de su institución.
 
 📁 Estructura del proyecto
+
 oracle-quiz-solver/
+
+
 ├── backend/
+
+
 │   ├── main.py
+
+
 │   ├── ai_service.py
+
+
 │   ├── config.py
+
+
 │   ├── models.py
+
+
 │   ├── requirements.txt
+
+
 │   ├── .env.example
+
+
 │   └── .gitignore
+
+
 │
+
+
 ├── extension/
+
+
 │   ├── manifest.json
+
+
 │   ├── content.js
+
+
 │   └── .gitignore
+
+
 │
+
+
 ├── .gitignore
+
+
 └── README.md
 
 ✨ Características
